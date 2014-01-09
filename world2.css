@@ -1,0 +1,15 @@
+#world {
+    fill: #f5f3f2;
+},
+#countries {
+    fill: #f5f3f2;
+    stroke: #882222;
+    stroke-width: 0.5px;
+    stroke-opacity: 0.4;
+},
+#countries[name=China]{
+    fill: #ff0000;
+},
+#countries[name=Russia, Australia]{
+    fill: #ff0000;
+}
